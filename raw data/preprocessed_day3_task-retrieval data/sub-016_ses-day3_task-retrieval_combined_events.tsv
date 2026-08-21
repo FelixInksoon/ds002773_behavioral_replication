@@ -1,0 +1,145 @@
+sub_id	onset	duration	trial_type	response_time	task_type	update_cond	cate_c	cate_b	cate_o	response_type	response	trial_id	run_id	word_id	img_id	stim_c	stim_b	design_onset	grate_orientation
+16	2.011	3.000	don't know	0.316	retrieval	restudy	scene	face	object	don't know	don't know	1	1	29	101	253	29	2.0	n/a
+16	14.026	3.000	forget	0.437	retrieval	restudy	scene	object	face	competitor	object	2	1	79	127	279	131	14.0	n/a
+16	26.008	3.000	forget	0.782	retrieval	restudy	object	face	scene	other	scene	3	1	7	55	155	7	26.0	n/a
+16	38.007	3.000	no response	n/a	retrieval	retprac	face	scene	object	no response	no response	4	1	104	32	80	208	38.0	n/a
+16	50.006	3.000	forget	0.552	retrieval	restudy	scene	face	object	competitor	face	5	1	27	99	251	27	50.0	n/a
+16	62.021	3.000	remember	0.232	retrieval	retprac	scene	face	object	target	scene	6	1	26	98	250	26	62.0	n/a
+16	74.020	3.000	forget	0.288	retrieval	retprac	scene	object	face	other	face	7	1	80	128	280	132	74.0	n/a
+16	86.019	3.000	forget	0.457	retrieval	retprac	object	scene	face	competitor	scene	8	1	124	76	176	228	86.0	n/a
+16	98.018	3.000	forget	0.234	retrieval	restudy	face	object	scene	competitor	object	9	1	55	7	55	107	98.0	n/a
+16	110.016	3.000	forget	0.466	retrieval	retprac	object	face	scene	competitor	face	10	1	2	50	150	2	110.0	n/a
+16	122.015	3.000	forget	0.323	retrieval	restudy	face	scene	object	competitor	scene	11	1	101	29	77	205	122.0	n/a
+16	134.014	3.000	forget	0.436	retrieval	restudy	object	face	scene	competitor	face	12	1	5	53	153	5	134.0	n/a
+16	146.013	3.000	forget	0.389	retrieval	retprac	face	scene	object	competitor	scene	13	1	98	26	74	202	146.0	n/a
+16	158.011	3.000	forget	0.278	retrieval	retprac	face	object	scene	competitor	object	14	1	52	4	52	104	158.0	n/a
+16	170.010	3.000	remember	0.294	retrieval	retprac	scene	face	object	target	scene	15	1	32	104	256	32	170.0	n/a
+16	182.009	3.000	remember	0.239	retrieval	retprac	object	scene	face	target	object	16	1	122	74	174	226	182.0	n/a
+16	194.008	3.000	forget	0.711	retrieval	restudy	object	scene	face	competitor	scene	17	1	127	79	179	231	194.0	n/a
+16	206.007	3.000	forget	0.208	retrieval	retprac	scene	face	object	competitor	face	18	1	28	100	252	28	206.0	n/a
+16	218.022	3.000	remember	0.648	retrieval	retprac	scene	object	face	target	scene	19	1	76	124	276	128	218.0	n/a
+16	230.021	3.000	forget	0.281	retrieval	retprac	face	scene	object	other	object	20	1	102	30	78	206	230.0	n/a
+16	242.020	3.000	remember	0.562	retrieval	restudy	object	face	scene	target	object	21	1	3	51	151	3	242.0	n/a
+16	254.018	3.000	remember	0.658	retrieval	restudy	scene	object	face	target	scene	22	1	75	123	275	127	254.0	n/a
+16	266.017	3.000	forget	0.243	retrieval	retprac	scene	face	object	competitor	face	23	1	30	102	254	30	266.0	n/a
+16	278.016	3.000	don't know	0.532	retrieval	restudy	face	object	scene	don't know	don't know	24	1	53	5	53	105	278.0	n/a
+16	290.015	3.000	no response	n/a	retrieval	restudy	face	scene	object	no response	no response	25	1	103	31	79	207	290.0	n/a
+16	302.014	3.000	forget	0.349	retrieval	retprac	object	scene	face	other	face	26	1	126	78	178	230	302.0	n/a
+16	314.012	3.000	forget	0.550	retrieval	restudy	scene	object	face	competitor	object	27	1	73	121	273	125	314.0	n/a
+16	326.011	3.000	remember	0.471	retrieval	retprac	object	face	scene	target	object	28	1	4	52	152	4	326.0	n/a
+16	338.010	3.000	forget	0.359	retrieval	restudy	object	scene	face	competitor	scene	29	1	121	73	173	225	338.0	n/a
+16	350.009	3.000	forget	0.224	retrieval	restudy	object	scene	face	competitor	scene	30	1	123	75	175	227	350.0	n/a
+16	362.007	3.000	forget	0.337	retrieval	restudy	scene	face	object	competitor	face	31	1	25	97	249	25	362.0	n/a
+16	374.006	3.000	remember	0.490	retrieval	restudy	face	scene	object	target	face	32	1	99	27	75	203	374.0	n/a
+16	386.022	3.000	forget	0.410	retrieval	retprac	object	face	scene	competitor	face	33	1	6	54	154	6	386.0	n/a
+16	398.021	3.000	forget	0.930	retrieval	retprac	face	scene	object	other	object	34	1	100	28	76	204	398.0	n/a
+16	410.019	3.000	remember	0.251	retrieval	restudy	face	object	scene	target	face	35	1	49	1	49	101	410.0	n/a
+16	422.018	3.000	don't know	0.284	retrieval	retprac	scene	object	face	don't know	don't know	36	1	74	122	274	126	422.0	n/a
+16	434.017	3.000	don't know	0.532	retrieval	restudy	object	scene	face	don't know	don't know	37	1	125	77	177	229	434.0	n/a
+16	446.016	3.000	remember	0.317	retrieval	retprac	object	face	scene	target	object	38	1	8	56	156	8	446.0	n/a
+16	458.014	3.000	remember	0.174	retrieval	restudy	face	object	scene	target	face	39	1	51	3	51	103	458.0	n/a
+16	470.013	3.000	forget	0.359	retrieval	restudy	object	face	scene	other	scene	40	1	1	49	149	1	470.0	n/a
+16	482.012	3.000	remember	0.271	retrieval	retprac	face	object	scene	target	face	41	1	56	8	56	108	482.0	n/a
+16	494.011	3.000	forget	0.488	retrieval	restudy	face	scene	object	competitor	scene	42	1	97	25	73	201	494.0	n/a
+16	506.010	3.000	remember	0.361	retrieval	retprac	object	scene	face	target	object	43	1	128	80	180	232	506.0	n/a
+16	518.008	3.000	forget	0.498	retrieval	restudy	scene	object	face	competitor	object	44	1	77	125	277	129	518.0	n/a
+16	530.007	3.000	forget	0.338	retrieval	retprac	face	object	scene	other	scene	45	1	54	6	54	106	530.0	n/a
+16	542.023	3.000	remember	0.578	retrieval	retprac	face	object	scene	target	face	46	1	50	2	50	102	542.0	n/a
+16	554.021	3.000	remember	0.523	retrieval	restudy	scene	face	object	target	scene	47	1	31	103	255	31	554.0	n/a
+16	566.020	3.000	remember	0.484	retrieval	retprac	scene	object	face	target	scene	48	1	78	126	278	130	566.0	n/a
+16	2.010	3.000	remember	0.285	retrieval	retprac	face	scene	object	target	face	1	2	110	38	86	214	2.0	n/a
+16	14.025	3.000	forget	0.429	retrieval	restudy	scene	face	object	other	object	2	2	39	111	263	39	14.0	n/a
+16	26.007	3.000	forget	0.430	retrieval	restudy	object	scene	face	competitor	scene	3	2	135	87	187	239	26.0	n/a
+16	38.023	3.000	remember	0.286	retrieval	retprac	object	face	scene	target	object	4	2	16	64	164	16	38.0	n/a
+16	50.021	3.000	forget	0.519	retrieval	retprac	scene	object	face	competitor	object	5	2	88	136	288	140	50.0	n/a
+16	62.020	3.000	forget	0.335	retrieval	restudy	scene	object	face	competitor	object	6	2	81	129	281	133	62.0	n/a
+16	74.019	3.000	forget	0.456	retrieval	retprac	scene	face	object	competitor	face	7	2	38	110	262	38	74.0	n/a
+16	86.018	3.000	remember	0.593	retrieval	retprac	face	object	scene	target	face	8	2	60	12	60	112	86.0	n/a
+16	98.016	3.000	don't know	0.411	retrieval	retprac	scene	object	face	don't know	don't know	9	2	84	132	284	136	98.0	n/a
+16	110.015	3.000	remember	0.362	retrieval	restudy	scene	face	object	target	scene	10	2	35	107	259	35	110.0	n/a
+16	122.014	3.000	remember	0.627	retrieval	restudy	face	scene	object	target	face	11	2	105	33	81	209	122.0	n/a
+16	134.013	3.000	remember	0.396	retrieval	retprac	scene	object	face	target	scene	12	2	86	134	286	138	134.0	n/a
+16	146.012	3.000	don't know	0.188	retrieval	restudy	scene	object	face	don't know	don't know	13	2	83	131	283	135	146.0	n/a
+16	158.010	3.000	don't know	0.653	retrieval	restudy	face	object	scene	don't know	don't know	14	2	63	15	63	115	158.0	n/a
+16	170.009	3.000	forget	0.271	retrieval	retprac	scene	face	object	competitor	face	15	2	34	106	258	34	170.0	n/a
+16	182.008	3.000	forget	0.448	retrieval	restudy	object	scene	face	competitor	scene	16	2	131	83	183	235	182.0	n/a
+16	194.007	3.000	remember	0.401	retrieval	retprac	scene	object	face	target	scene	17	2	82	130	282	134	194.0	n/a
+16	206.022	3.000	forget	0.920	retrieval	restudy	object	face	scene	competitor	face	18	2	9	57	157	9	206.0	n/a
+16	218.021	3.000	remember	0.352	retrieval	retprac	object	face	scene	target	object	19	2	14	62	162	14	218.0	n/a
+16	230.020	3.000	forget	0.449	retrieval	restudy	object	face	scene	competitor	face	20	2	13	61	161	13	230.0	n/a
+16	242.019	3.000	forget	0.322	retrieval	restudy	face	scene	object	competitor	scene	21	2	111	39	87	215	242.0	n/a
+16	254.017	3.000	remember	0.354	retrieval	restudy	scene	face	object	target	scene	22	2	37	109	261	37	254.0	n/a
+16	266.016	3.000	don't know	0.563	retrieval	retprac	face	object	scene	don't know	don't know	23	2	62	14	62	114	266.0	n/a
+16	278.015	3.000	don't know	0.380	retrieval	retprac	object	face	scene	don't know	don't know	24	2	12	60	160	12	278.0	n/a
+16	290.014	3.000	no response	n/a	retrieval	restudy	face	scene	object	no response	no response	25	2	109	37	85	213	290.0	n/a
+16	302.012	3.000	don't know	0.293	retrieval	restudy	object	face	scene	don't know	don't know	26	2	15	63	163	15	302.0	n/a
+16	314.011	3.000	forget	0.462	retrieval	retprac	object	scene	face	other	face	27	2	136	88	188	240	314.0	n/a
+16	326.010	3.000	don't know	0.263	retrieval	retprac	object	face	scene	don't know	don't know	28	2	10	58	158	10	326.0	n/a
+16	338.009	3.000	don't know	0.415	retrieval	retprac	face	object	scene	don't know	don't know	29	2	64	16	64	116	338.0	n/a
+16	350.007	3.000	remember	0.664	retrieval	restudy	object	face	scene	target	object	30	2	11	59	159	11	350.0	n/a
+16	362.006	3.000	remember	0.297	retrieval	retprac	face	object	scene	target	face	31	2	58	10	58	110	362.0	n/a
+16	374.022	3.000	don't know	0.433	retrieval	restudy	face	object	scene	don't know	don't know	32	2	57	9	57	109	374.0	n/a
+16	386.021	3.000	remember	0.482	retrieval	restudy	scene	object	face	target	scene	33	2	87	135	287	139	386.0	n/a
+16	398.019	3.000	forget	0.355	retrieval	retprac	scene	face	object	competitor	face	34	2	36	108	260	36	398.0	n/a
+16	410.018	3.000	remember	0.692	retrieval	restudy	face	object	scene	target	face	35	2	61	13	61	113	410.0	n/a
+16	422.017	3.000	remember	0.300	retrieval	retprac	object	scene	face	target	object	36	2	132	84	184	236	422.0	n/a
+16	434.016	3.000	don't know	0.324	retrieval	restudy	object	scene	face	don't know	don't know	37	2	133	85	185	237	434.0	n/a
+16	446.014	3.000	remember	0.358	retrieval	restudy	face	scene	object	target	face	38	2	107	35	83	211	446.0	n/a
+16	458.013	3.000	remember	0.478	retrieval	retprac	scene	face	object	target	scene	39	2	40	112	264	40	458.0	n/a
+16	470.012	3.000	remember	0.368	retrieval	retprac	face	scene	object	target	face	40	2	106	34	82	210	470.0	n/a
+16	482.011	3.000	remember	0.289	retrieval	retprac	face	scene	object	target	face	41	2	108	36	84	212	482.0	n/a
+16	494.010	3.000	remember	0.256	retrieval	retprac	object	scene	face	target	object	42	2	134	86	186	238	494.0	n/a
+16	506.008	3.000	forget	0.329	retrieval	retprac	object	scene	face	competitor	scene	43	2	130	82	182	234	506.0	n/a
+16	518.007	3.000	don't know	0.394	retrieval	restudy	object	scene	face	don't know	don't know	44	2	129	81	181	233	518.0	n/a
+16	530.006	3.000	don't know	0.602	retrieval	restudy	scene	face	object	don't know	don't know	45	2	33	105	257	33	530.0	n/a
+16	542.021	3.000	don't know	0.642	retrieval	restudy	face	object	scene	don't know	don't know	46	2	59	11	59	111	542.0	n/a
+16	554.020	3.000	forget	0.811	retrieval	retprac	face	scene	object	competitor	scene	47	2	112	40	88	216	554.0	n/a
+16	566.019	3.000	remember	0.605	retrieval	restudy	scene	object	face	target	scene	48	2	85	133	285	137	566.0	n/a
+16	2.008	3.000	forget	0.351	retrieval	restudy	face	scene	object	competitor	scene	1	3	113	41	89	217	2.0	n/a
+16	14.007	3.000	no response	n/a	retrieval	retprac	scene	object	face	no response	no response	2	3	96	144	296	148	14.0	n/a
+16	26.022	3.000	don't know	0.288	retrieval	retprac	face	object	scene	don't know	don't know	3	3	66	18	66	118	26.0	n/a
+16	38.021	3.000	forget	0.569	retrieval	retprac	scene	object	face	other	face	4	3	92	140	292	144	38.0	n/a
+16	50.020	3.000	forget	0.962	retrieval	retprac	face	scene	object	competitor	scene	5	3	116	44	92	220	50.0	n/a
+16	62.018	3.000	don't know	0.418	retrieval	restudy	face	object	scene	don't know	don't know	6	3	65	17	65	117	62.0	n/a
+16	74.017	3.000	forget	0.371	retrieval	retprac	face	scene	object	competitor	scene	7	3	114	42	90	218	74.0	n/a
+16	86.016	3.000	don't know	0.412	retrieval	retprac	scene	object	face	don't know	don't know	8	3	94	142	294	146	86.0	n/a
+16	98.015	3.000	remember	0.244	retrieval	retprac	face	object	scene	target	face	9	3	68	20	68	120	98.0	n/a
+16	110.014	3.000	don't know	0.605	retrieval	restudy	object	scene	face	don't know	don't know	10	3	139	91	191	243	110.0	n/a
+16	122.012	3.000	don't know	0.598	retrieval	restudy	scene	face	object	don't know	don't know	11	3	47	119	271	47	122.0	n/a
+16	134.011	3.000	forget	0.614	retrieval	restudy	object	scene	face	competitor	scene	12	3	143	95	195	247	134.0	n/a
+16	146.010	3.000	forget	0.679	retrieval	restudy	scene	face	object	competitor	face	13	3	43	115	267	43	146.0	n/a
+16	158.009	3.000	forget	0.464	retrieval	restudy	face	scene	object	competitor	scene	14	3	119	47	95	223	158.0	n/a
+16	170.008	3.000	forget	0.361	retrieval	restudy	scene	face	object	competitor	face	15	3	41	113	265	41	170.0	n/a
+16	182.006	3.000	don't know	0.681	retrieval	retprac	object	scene	face	don't know	don't know	16	3	144	96	196	248	182.0	n/a
+16	194.022	3.000	remember	0.609	retrieval	restudy	face	scene	object	target	face	17	3	117	45	93	221	194.0	n/a
+16	206.021	3.000	don't know	0.642	retrieval	retprac	object	face	scene	don't know	don't know	18	3	20	68	168	20	206.0	n/a
+16	218.019	3.000	don't know	0.747	retrieval	restudy	object	face	scene	don't know	don't know	19	3	19	67	167	19	218.0	n/a
+16	230.018	3.000	forget	0.403	retrieval	restudy	face	scene	object	competitor	scene	20	3	115	43	91	219	230.0	n/a
+16	242.017	3.000	don't know	0.684	retrieval	retprac	scene	face	object	don't know	don't know	21	3	44	116	268	44	242.0	n/a
+16	254.016	3.000	remember	0.421	retrieval	restudy	object	face	scene	target	object	22	3	21	69	169	21	254.0	n/a
+16	266.015	3.000	forget	0.702	retrieval	retprac	scene	face	object	competitor	face	23	3	46	118	270	46	266.0	n/a
+16	278.013	3.000	no response	n/a	retrieval	restudy	face	object	scene	no response	no response	24	3	71	23	71	123	278.0	n/a
+16	290.012	3.000	don't know	0.615	retrieval	restudy	face	object	scene	don't know	don't know	25	3	67	19	67	119	290.0	n/a
+16	302.011	3.000	remember	0.376	retrieval	retprac	face	scene	object	target	face	26	3	118	46	94	222	302.0	n/a
+16	314.010	3.000	forget	0.409	retrieval	restudy	object	face	scene	other	scene	27	3	17	65	165	17	314.0	n/a
+16	326.008	3.000	forget	0.425	retrieval	retprac	scene	face	object	competitor	face	28	3	42	114	266	42	326.0	n/a
+16	338.007	3.000	don't know	0.210	retrieval	restudy	face	object	scene	don't know	don't know	29	3	69	21	69	121	338.0	n/a
+16	350.006	3.000	forget	0.627	retrieval	retprac	scene	face	object	competitor	face	30	3	48	120	272	48	350.0	n/a
+16	362.021	3.000	don't know	0.259	retrieval	restudy	object	face	scene	don't know	don't know	31	3	23	71	171	23	362.0	n/a
+16	374.020	3.000	remember	0.611	retrieval	retprac	object	scene	face	target	object	32	3	138	90	190	242	374.0	n/a
+16	386.019	3.000	remember	0.372	retrieval	retprac	object	scene	face	target	object	33	3	140	92	192	244	386.0	n/a
+16	398.018	3.000	forget	0.861	retrieval	retprac	object	face	scene	other	scene	34	3	24	72	172	24	398.0	n/a
+16	410.017	3.000	don't know	0.398	retrieval	retprac	object	scene	face	don't know	don't know	35	3	142	94	194	246	410.0	n/a
+16	422.015	3.000	forget	0.710	retrieval	restudy	scene	face	object	competitor	face	36	3	45	117	269	45	422.0	n/a
+16	434.014	3.000	remember	0.392	retrieval	retprac	scene	object	face	target	scene	37	3	90	138	290	142	434.0	n/a
+16	446.013	3.000	remember	0.336	retrieval	retprac	face	object	scene	target	face	38	3	72	24	72	124	446.0	n/a
+16	458.012	3.000	remember	0.377	retrieval	retprac	object	face	scene	target	object	39	3	22	70	170	22	458.0	n/a
+16	470.010	3.000	don't know	0.570	retrieval	restudy	scene	object	face	don't know	don't know	40	3	89	137	289	141	470.0	n/a
+16	482.009	3.000	forget	0.594	retrieval	retprac	object	face	scene	competitor	face	41	3	18	66	166	18	482.0	n/a
+16	494.008	3.000	remember	0.387	retrieval	retprac	face	object	scene	target	face	42	3	70	22	70	122	494.0	n/a
+16	506.007	3.000	remember	0.267	retrieval	restudy	scene	object	face	target	scene	43	3	91	139	291	143	506.0	n/a
+16	518.022	3.000	remember	0.595	retrieval	restudy	object	scene	face	target	object	44	3	141	93	193	245	518.0	n/a
+16	530.021	3.000	don't know	0.484	retrieval	restudy	scene	object	face	don't know	don't know	45	3	93	141	293	145	530.0	n/a
+16	542.020	3.000	remember	0.294	retrieval	restudy	object	scene	face	target	object	46	3	137	89	189	241	542.0	n/a
+16	554.019	3.000	don't know	0.702	retrieval	restudy	scene	object	face	don't know	don't know	47	3	95	143	295	147	554.0	n/a
+16	566.017	3.000	forget	0.358	retrieval	retprac	face	scene	object	competitor	scene	48	3	120	48	96	224	566.0	n/a

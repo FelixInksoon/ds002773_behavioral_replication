@@ -1,0 +1,81 @@
+
+Holm correction's result:
+
+For significance level 0.05:
+The original p values are: [(1e-05, 'target'), (0.00196, 'competitor'), (0.00761, 'median_correct_response_latency')]
+The adjusted significance levels are: [0.016666666666666666, 0.025, 0.05]
+The test results are: ['Reject', 'Reject', 'Reject']
+
+
+For significance level 0.01:
+The original p values are: [(1e-05, 'target'), (0.00196, 'competitor'), (0.00761, 'median_correct_response_latency')]
+The adjusted significance levels are: [0.0033333333333333335, 0.005, 0.01]
+The test results are: ['Reject', 'Reject', 'Reject']
+
+
+
+Leave-one-participant out (LOPO) Test Result:
+
+
+For Indicator target: 
+Original mean difference (full sample): -0.09430
+LOPO estimated mean difference (average across 19 leave-outs): -0.09430
+Range of LOPO estimates: [-0.10262, -0.08642]
+Standard deviation of LOPO estimates: 0.00371
+Conclusion: All 19 estimates remained negative relative to the original effect.
+
+For Indicator competitor: 
+Original mean difference (full sample): 0.06213
+LOPO estimated mean difference (average across 19 leave-outs): 0.06213
+Range of LOPO estimates: [0.04938, 0.06790]
+Standard deviation of LOPO estimates: 0.00416
+Conclusion: All 19 estimates remained positive relative to the original effect.
+
+For Indicator median_correct_response_latency: 
+Original mean difference (full sample): 0.03174
+LOPO estimated mean difference (average across 19 leave-outs): 0.03174
+Range of LOPO estimates: [0.02633, 0.03486]
+Standard deviation of LOPO estimates: 0.00256
+Conclusion: All 19 estimates remained positive relative to the original effect.
+
+
+
+
+Participant-level bootstrap analysis result:
+
+target's Confidence Interval: [-0.12353842105263156, -0.06578947368421051]
+
+
+competitor's Confidence Interval: [0.03216473684210528, 0.0979536842105263]
+
+
+median_correct_response_latency's Confidence Interval: [0.012526315789473698, 0.05265789473684209]
+
+
+
+Paired Permutation Test Result:
+
+target's p value: 1.2e-05
+
+
+competitor's p value: 0.000225
+
+
+median_correct_response_latency's p value: 0.004313
+
+
+
+Wilcoxon signed rank rest result:
+
+target:
+Statistic:  4.5 , P value:  0.0002698404871662019
+
+
+competitor:
+Statistic:  8.5 , P value:  0.0007925984646131785
+
+
+median_correct_response_latency:
+Statistic:  31.0 , P value:  0.00823211669921875
+
+
