@@ -1,19 +1,4 @@
 
-Holm correction's result:
-
-For significance level 0.05:
-The original p values are: [(1e-05, 'target'), (0.00196, 'competitor'), (0.00761, 'median_correct_response_latency')]
-The adjusted significance levels are: [0.016666666666666666, 0.025, 0.05]
-The test results are: ['Reject', 'Reject', 'Reject']
-
-
-For significance level 0.01:
-The original p values are: [(1e-05, 'target'), (0.00196, 'competitor'), (0.00761, 'median_correct_response_latency')]
-The adjusted significance levels are: [0.0033333333333333335, 0.005, 0.01]
-The test results are: ['Reject', 'Reject', 'Reject']
-
-
-
 Leave-one-participant out (LOPO) Test Result:
 
 
@@ -79,3 +64,8 @@ median_correct_response_latency:
 Statistic:  31.0 , P value:  0.00823211669921875
 
 
+Holm correction's result:
+
+The original p values are: [1e-05, 0.00196, 0.00761]
+The adjusted p values are: [3.00e-05 3.92e-03 7.61e-03]
+The test results are: [ True  True  True]

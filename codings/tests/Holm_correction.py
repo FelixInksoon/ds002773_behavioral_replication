@@ -5,6 +5,7 @@ import random
 import matplotlib.pyplot as plt 
 import os
 import sys
+from statsmodels.stats.multitest import multipletests
 
 FILE_NAME = 'results/statistics_result.tsv'
 N=19
@@ -30,14 +31,14 @@ def main():
     for idct in indicator:
         col_index = f'{idct}_diff'
         p_value = float(raw_p_value_row[col_index].iloc[0])
-        origin_p.append((p_value, idct))
+        origin_p.append(p_value)
 
-    origin_p.sort(key=lambda x:x[0])
+    # origin_p.sort(key=lambda x:x[0])
     # print(origin_p[0])
     print("\nHolm correction's result:\n")
 
     
-
+    '''
     for alpha in significance_level:
         cond = []
         adj_alpha = []
@@ -55,13 +56,22 @@ def main():
         print(f'The test results are: {cond}')
         print("\n")
 
+
+    '''
+
+    reject, adjusted_p, alphaSidak, alphaBonf = multipletests(
+    origin_p, 
+    alpha=0.01, 
+    method='holm')
+
+    print(f'The original p values are: {origin_p}')
+    print(f'The adjusted p values are: {adjusted_p}')
+    print(f'The test results are: {reject}')
+
     sys.stdout = sys.__stdout__
     log_file.close()
 
     print("finish")
-
-
-    
 
 
 if __name__ == "__main__":
