@@ -12,7 +12,7 @@ import numpy as np
 
 DECIMAL_PLACES = 5
 FILE_NAME = 'statistics_result_in_runs.tsv'
-OUTPUT_DIR = 'figures'
+OUTPUT_DIR = 'results/figures'
 
 def main():
 
@@ -62,7 +62,7 @@ def main():
 
 def one_sub(sub_id, run_id):
 
-    filename = f'day3_task-retrieval raw data/sub-{sub_id:03d}_ses-day3_task-retrieval_run-{run_id}_events.tsv'
+    filename = f'raw data/day3_task-retrieval raw data/sub-{sub_id:03d}_ses-day3_task-retrieval_run-{run_id}_events.tsv'
     with open(filename, 'r', encoding='utf-8') as file:
         reader = csv.reader(file, delimiter='\t')
         header = next(reader)            
@@ -151,6 +151,7 @@ def draw():
             y_max = y_max + margin
         
         fig, axes = plt.subplots(nrows, ncols, figsize=(15, 10))
+        fig.suptitle(f'run-level trend of variable {label}', fontsize=16, fontweight='bold')
         axes_flat = axes.flatten()
         
         for idx, sub_id in enumerate(subjects):
@@ -188,10 +189,12 @@ def draw():
         fig.legend(handles, labels, loc='upper right', fontsize=10)
 
         os.makedirs(OUTPUT_DIR, exist_ok=True)
-        plt.tight_layout(rect=[0, 0, 0.95, 0.95])
+        plt.tight_layout(rect=[0, 0, 1, 1])
         save_path = os.path.join(OUTPUT_DIR, f'{col_prefix}_small_multiples.png')
         plt.savefig(save_path, dpi=300)
         plt.close(fig)
+
+    print("finish")
 
 
 
