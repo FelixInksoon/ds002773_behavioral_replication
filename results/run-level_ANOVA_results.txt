@@ -1,0 +1,22 @@
+
+ANOVA: target recall (target_accuracy)
+condition: ddof1=1, ddof2=18, F=37.974486, p=0.000008, partial_eta2=0.678425
+run_id: ddof1=2, ddof2=36, F=0.001274, p=0.998727, partial_eta2=0.000071
+condition * run_id: ddof1=2, ddof2=36, F=2.333326, p=0.111469, partial_eta2=0.114754
+the interaction effect was not significant
+
+
+ANOVA: competitor intrusion (competitor_accuracy)
+condition: ddof1=1, ddof2=18, F=13.094177, p=0.001964, partial_eta2=0.421113
+run_id: ddof1=2, ddof2=36, F=0.790888, p=0.461162, partial_eta2=0.042089
+condition * run_id: ddof1=2, ddof2=36, F=1.437850, p=0.250748, partial_eta2=0.073972
+the interaction effect was not significant
+
+
+ANOVA: correct response latency (median_rt)
+condition: ddof1=1, ddof2=18, F=10.486385, p=0.004562, partial_eta2=0.368119
+run_id: ddof1=2, ddof2=36, F=5.454427, p=0.008528, partial_eta2=0.232554
+condition * run_id: ddof1=2, ddof2=36, F=0.556981, p=0.577795, partial_eta2=0.030015
+the interaction effect was not significant
+
+

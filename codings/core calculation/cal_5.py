@@ -8,12 +8,13 @@ import sys
 import matplotlib.pyplot as plt
 import numpy as np
 import scipy.stats as stats
+import pingouin as pg
 
 FILE_NAME = 'results/statistics_result_in_runs.tsv'
 
 def main():
 
-    OUTPUT_FILE = 'results/run-level_results.txt'
+    OUTPUT_FILE = 'results/run-level_ANOVA_results.txt'
     log_file = open(OUTPUT_FILE, 'a', encoding='utf-8')
     sys.stdout = log_file
 
@@ -86,11 +87,36 @@ def analyze_anova(dep_var, dep_name, df_long):
 
     print(f"ANOVA: {dep_name} ({dep_var})")
 
-    res = AnovaRM(df_long, depvar=dep_var, subject='sub_id', 
-                  within=['condition', 'run_id'], aggregate_func='mean').fit()
-    
-    print(res)
-    return res
+    res = pg.rm_anova(
+        data=df_long,
+        dv=dep_var,
+        subject='sub_id',
+        within=['condition', 'run_id'],
+        detailed=True,
+        effsize='np2'
+    )
+
+    for _, row in res.iterrows():
+        print(
+            f"{row['Source']}: "
+            f"ddof1={row['ddof1']}, "
+            f"ddof2={row['ddof2']}, "
+            f"F={row['F']:.6f}, "
+            f"p={row['p_unc']:.6f}, "
+            f"partial_eta2={row['np2']:.6f}"
+        )
+
+    interaction = res[res['Source'] == 'condition * run_id']
+    if interaction['p_unc'].values < 0.05:
+        print("the interaction effect was significant")
+    else:
+        print("the interaction effect was not significant")
+
+    print("\n") 
+
+    return ;
+
+
 
 if __name__ == '__main__':
 
