@@ -1,0 +1,30 @@
+Paired Permutation Test Result:
+
+pearson p value: 0.0079
+
+spearman p value: 0.0023
+
+
+Leave-one-participant out (LOPO) Test Result:
+
+
+For Pearson correlation:
+Original r (full sample): 0.59437
+LOPO estimated r (average across 19 leave-outs): 0.59566
+Range of LOPO estimates: [0.54325, 0.62994]
+Standard deviation of LOPO estimates: 0.02225
+Conclusion: All 19 estimates remained positive relative to the original effect.
+
+For Spearman correlation:
+Original r (full sample): 0.65099
+LOPO estimated r (average across 19 leave-outs): 0.64959
+Range of LOPO estimates: [0.58924, 0.73616]
+Standard deviation of LOPO estimates: 0.04046
+Conclusion: All 19 estimates remained positive relative to the original effect.
+
+Participant-level bootstrap analysis result:
+
+Pearson correlation's 95% CI: [0.34836, 0.81403]
+Spearman correlation's 95% CI: [0.23801, 0.88159]
+
+

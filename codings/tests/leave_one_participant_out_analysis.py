@@ -53,7 +53,7 @@ def main():
                      f'{val:.5f}', ha='center', va='bottom', fontsize=8)
 
         plt.xlabel('the index of the left subject', fontsize=12)
-        plt.ylabel('mean difference (restudy-reprac) from LOO', fontsize=12)
+        plt.ylabel('mean difference (restudy-reprac) from LOPO', fontsize=12)
         plt.title(f'{idct} – result from LOPO', fontsize=14)
         plt.legend()
         plt.grid(axis='y', linestyle=':', alpha=0.6)
