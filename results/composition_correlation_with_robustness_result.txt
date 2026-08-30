@@ -70,6 +70,7 @@ LOPO estimated r (average across 19 leave-outs): 0.64959
 Range of LOPO estimates: [0.58924, 0.73616]
 Standard deviation of LOPO estimates: 0.04046
 Conclusion: All 19 estimates remained positive relative to the original effect.
+
 for target-recall benefit and other reduction: 
 original Pearson's r: 0.382459460344446 ,p: 0.1060812443093295
 original Spearman's rho: 0.3097235826121301 ,p: 0.1969078530686018
@@ -87,6 +88,7 @@ LOPO estimated r (average across 19 leave-outs): 0.30923
 Range of LOPO estimates: [0.18747, 0.45780]
 Standard deviation of LOPO estimates: 0.06321
 Conclusion: All 19 estimates remained positive relative to the original effect.
+
 for target-recall benefit and don't know reduction: 
 original Pearson's r: -0.09072829996988248 ,p: 0.7118367810643819
 original Spearman's rho: -0.32358142974862414 ,p: 0.17656794030638007
@@ -104,6 +106,7 @@ LOPO estimated r (average across 19 leave-outs): -0.32292
 Range of LOPO estimates: [-0.48576, -0.23113]
 Standard deviation of LOPO estimates: 0.05792
 Conclusion: All 19 estimates remained negative relative to the original effect.
+
 for target-recall benefit and no response reduction: 
 original Pearson's r: 0.04575950357228764 ,p: 0.8524318313187599
 original Spearman's rho: 0.05807013710233974 ,p: 0.8133268934493302
