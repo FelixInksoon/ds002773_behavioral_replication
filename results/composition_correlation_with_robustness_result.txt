@@ -18,6 +18,7 @@ LOPO estimated r (average across 19 leave-outs): 0.64959
 Range of LOPO estimates: [0.58924, 0.73616]
 Standard deviation of LOPO estimates: 0.04046
 Conclusion: All 19 estimates remained positive relative to the original effect.
+
 for target-recall benefit and other reduction: 
 Pearson's r: 0.382459460344446
 Spearman's rho: 0.3097235826121301
