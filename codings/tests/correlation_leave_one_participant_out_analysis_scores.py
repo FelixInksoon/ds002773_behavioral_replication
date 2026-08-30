@@ -39,6 +39,9 @@ def LOPO_correlation(var1, var2, df):
     print(f'original Pearson\'s r: {pearsonr(list1, list2)[0]} ,p: {pearsonr(list1, list2)[1]}')
     print(f'original Spearman\'s rho: {spearmanr(list1, list2)[0]} ,p: {spearmanr(list1, list2)[1]}')
 
+    original_pearson = pearsonr(list1, list2)[0]
+    original_spearman = spearmanr(list1, list2)[0]
+
     simu_pearson = []
     simu_spearman = []
 
