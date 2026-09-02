@@ -6,16 +6,22 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import os
 import scipy.stats as stats
+import numpy as np
 
-INPUT_FILE = 'summary_percentages.tsv'  
-OUTPUT_DIR = './figures'                 
+INPUT_FILE = 'results/summary_percentages.tsv'  
+OUTPUT_DIR = 'results/figures'                 
 
 def main():
 
 
     draw(INPUT_FILE, OUTPUT_DIR, 'paired_median_RT.png', indicator='median_response_time')
+    draw(INPUT_FILE, OUTPUT_DIR, 'paired_median_RT.pdf', indicator='median_response_time')
     draw(INPUT_FILE, OUTPUT_DIR, 'target_recall.png', indicator='target')
+    draw(INPUT_FILE, OUTPUT_DIR, 'target_recall.pdf', indicator='target')
     draw(INPUT_FILE, OUTPUT_DIR, 'competitor_intrusions.png', indicator='competitor')
+    draw(INPUT_FILE, OUTPUT_DIR, 'competitor_intrusions.pdf', indicator='competitor')
+
+    print("finish")
 
 
    
@@ -27,8 +33,8 @@ def draw(input_file, output_dir, output_filename, indicator):
     retprac_idct = df_sub[f'retprac_{indicator}']
     sub_ids = df_sub['sub_id']
 
-    t_paired_test_with_output(restudy_idct, retprac_idct, indicator)
-    statistic(restudy_idct, retprac_idct, indicator)
+    ### t_paired_test_with_output(restudy_idct, retprac_idct, indicator)
+    ### statistic(restudy_idct, retprac_idct, indicator)
 
     ### print(restudy_idct,retprac_idct,sub_ids)  # debugging
 
@@ -44,16 +50,17 @@ def draw(input_file, output_dir, output_filename, indicator):
         ax.scatter(0, restudy_idct.iloc[i], color='blue', s=40, alpha=0.7)
         ax.scatter(1, retprac_idct.iloc[i], color='red', s=40, alpha=0.7)
 
-    ax.axhline(y=restudy_idct.mean(), color='blue', linestyle='--', alpha=0.3, label=f'Restudy mean={restudy_idct.mean():.3f}')
-    ax.axhline(y=retprac_idct.mean(), color='red', linestyle='--', alpha=0.3, label=f'Retprac mean={retprac_idct.mean():.3f}')
+    ax.axhline(y=restudy_idct.mean(), color='blue', linestyle='--', alpha=0.3, label=f'Restudy Mean={restudy_idct.mean():.3f}')
+    ax.axhline(y=retprac_idct.mean(), color='red', linestyle='--', alpha=0.3, label=f'Retrieval Practice Mean={retprac_idct.mean():.3f}')
 
     ax.scatter([0]*len(restudy_idct), restudy_idct, color='blue', label='Restudy')
-    ax.scatter([1]*len(retprac_idct), retprac_idct, color='red', label='Retprac')
+    ax.scatter([1]*len(retprac_idct), retprac_idct, color='red', label='Retrieval Practice')
 
     ax.set_xticks([0, 1])
-    ax.set_xticklabels(['Restudy', 'Retprac'])
+    ax.set_xticklabels(['Restudy', 'Retrieval Practice'])
+    display_name = indicator.replace('_', ' ').title()
     ax.set_ylabel(output_filename.split('.')[0].replace('_', ' ').title())
-    ax.set_title(f'Paired Comparison: Restudy vs Retprac: {output_filename.split(".")[0].replace("_", " ").title()}')
+    ax.set_title(f'{display_name}: Restudy vs. Retrieval Practice')
 
     ax.legend()    
     plt.tight_layout()
@@ -62,7 +69,7 @@ def draw(input_file, output_dir, output_filename, indicator):
     os.makedirs(OUTPUT_DIR, exist_ok=True)   
     save_path = os.path.join(OUTPUT_DIR, output_filename)
     plt.savefig(save_path, dpi=300, bbox_inches='tight')
-    plt.show()
+
 
 def t_paired_test_with_output(list1, list2, indicator):
     t_statistic, p_value = stats.ttest_rel(list1, list2)
